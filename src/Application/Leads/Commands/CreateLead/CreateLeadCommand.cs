@@ -1,0 +1,13 @@
+﻿using MediatR;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace apollo.Application.Leads.Commands.CreateLead
+{
+    public class CreateLeadCommand : IRequest<int>
+    {
+    }
+}
